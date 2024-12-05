@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WEB-115 Final Project</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="projectJS.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Build Your Meal Plan</h1>
+    <p>It's Time To Eat!</p>
+  </header>
+  <main>
+    <form id="mealPlanForm">
+      <h2>User Information</h2>
+      <label for="name">Name:</label>
+      <input type="text" id="name" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" required>
+      <label for="goal">Goal:</label>
+      <input type="text" id="goal" required>
+      <h2>Weekly Meal Plan</h2>
+      <div id="mealInputs">
+        <div>
+          <h3>Monday</h3>
+          <label>Breakfast:</label>
+          <input type="text" id="mondayBreakfast">
+          <label>Snack:</label>
+          <input type="text" id="mondaySnack">
+          <label>Lunch:</label>
+          <input type="text" id="mondayLunch">
+          <label>Snack:</label>
+          <input type="text" id="mondaySnack2">
+          <label>Dinner:</label>
+          <input type="text" id="mondayDinner">
+        </div>
+        <div>
+          <h3>Tuesday</h3>
+          <label>Breakfast:</label>
+          <input type="text" id="tuesdayBreakfast">
+          <label>Snack:</label>
+          <input type="text" id="tuesdaySnack">
+          <label>Lunch:</label>
+          <input type="text" id="tuesdayLunch">
+          <label>Snack:</label>
+          <input type="text" id="tuesdaySnack2">
+          <label>Dinner:</label>
+          <input type="text" id="tuesdayDinner">
+        </div>
+      </div>
+      <button type="button" id="generatePlan">Generate Meal Plan</button>
+      <button type="button" id="clearForm">Clear Form</button>
+      <button type="button" id="printPlan">Print</button>
+    </form>
+  </main>
+</body>
+</html>
